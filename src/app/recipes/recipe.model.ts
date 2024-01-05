@@ -1,1 +1,5 @@
-export interface RecipeModel {}
+export interface Recipe {
+  name: string;
+  description: string;
+  imagePath: string;
+}
